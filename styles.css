@@ -1,0 +1,53 @@
+body{
+    background-color: cadetblue;
+    
+}.container{
+    display: grid;  
+    grid-template-columns: repeat(5,auto);
+    grid-row-gap: 2px;
+    grid-column-gap: 5px;
+    padding: 40px;
+    border: 10px solid black;
+    
+    
+   
+    
+}
+.item{
+    background-color: palevioletred;
+    padding: auto;
+    margin: 3px;
+    font-weight: 100px; 
+    display: inline-block;
+    border: 4px solid black; 
+    
+}
+.item:hover{
+    background-color: red;
+}
+h1{
+    justify-content: center;
+    padding: 40px;
+    
+}
+.mk-1{
+    grid-row: span 2;
+    grid-column: span 2;
+    background-color: aqua;
+}
+.mk-2{
+    grid-column: span 2;
+    background-color: aqua;
+}
+.mk-5{
+    grid-column: span 2;
+    background-color: aqua;
+}
+.mk-8{
+    grid-row: span 2;
+    grid-column: span 2;
+    background-color: aqua;
+}
+.mk1:hover,.mk-2:hover,.mk-5:hover,.mk-8:hover{
+    background-color: yellow;
+}
